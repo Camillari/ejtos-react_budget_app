@@ -68,7 +68,7 @@ const AllocationForm = (props) => {
                         onChange={(event) => setCost(event.target.value)}>
                         </input>
 
-                    <button className="btn btn-primary" onClick={submitEvent} style={{ marginLeft: '2rem' }}>
+                    <button className="btn btn-success" onClick={submitEvent} style={{ marginLeft: '2rem' }}>
                         Save
                     </button>
                 </div>
